@@ -1,8 +1,8 @@
 # Install this Neovim config on Windows.
-# Usage (PowerShell): irm https://raw.githubusercontent.com/__USER__/nvim-config/main/install.ps1 | iex
+# Usage (PowerShell): irm https://raw.githubusercontent.com/gubgub63/nvim-config/main/install.ps1 | iex
 $ErrorActionPreference = "Stop"
 
-$Repo = "https://github.com/__USER__/nvim-config.git"
+$Repo = "https://github.com/gubgub63/nvim-config.git"
 $Target = Join-Path $env:LOCALAPPDATA "nvim"
 
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {

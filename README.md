@@ -7,13 +7,13 @@
 macOS / Linux:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/__USER__/nvim-config/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/gubgub63/nvim-config/main/install.sh | sh
 ```
 
 Windows (PowerShell):
 
 ```powershell
-irm https://raw.githubusercontent.com/__USER__/nvim-config/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/gubgub63/nvim-config/main/install.ps1 | iex
 ```
 
 An existing config is backed up to `nvim.bak.<date>`. Plugins install on first `nvim` launch.

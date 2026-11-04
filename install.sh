@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 # Install this Neovim config on macOS / Linux.
-# Usage: curl -fsSL https://raw.githubusercontent.com/__USER__/nvim-config/main/install.sh | sh
+# Usage: curl -fsSL https://raw.githubusercontent.com/gubgub63/nvim-config/main/install.sh | sh
 set -eu
 
-REPO="https://github.com/__USER__/nvim-config.git"
+REPO="https://github.com/gubgub63/nvim-config.git"
 TARGET="${XDG_CONFIG_HOME:-$HOME/.config}/nvim"
 
 command -v git >/dev/null 2>&1 || { echo "git is required" >&2; exit 1; }
